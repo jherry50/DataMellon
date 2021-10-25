@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import { Grid, Typography, Card, CardHeader, Divider, CircularProgress, } from '@material-ui/core';
+import { Grid, Card, CardHeader, Divider, CircularProgress, } from '@material-ui/core';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, LineChart, Line, } from 'recharts';
 import axios from "axios";
 import moment from 'moment';
@@ -269,9 +269,6 @@ const Dashboard =()=>{
                 <>
                      <Header/>
                     <div className="dashboardContainer">
-                        <Typography variant="h6" component="div" gutterBottom>
-                            Welcome
-                        </Typography>
                         <Grid container spacing={3}>
                             <Grid item xs={12} md={6}>
                                 <Card>
